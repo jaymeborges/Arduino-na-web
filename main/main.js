@@ -7,7 +7,7 @@ const http = require('http')
 
 // CRIANDO SERVER
 
-/*const app = express ()
+const app = express ()
 const server = http.greateServer(app)
 
 app.use(express.static('public'))//ADICIONA ARQUIVOS ESTATICOS
@@ -21,7 +21,7 @@ server.listen(9999, () => {
     console.log('porta 192.168.0.2:%d', server.address().port)
 })
 
-const io = socketIo.listen(server)*/
+const io = socketIo.listen(server)
 
 //CONFIGURACAO DA SERIAL
 const readline = SerialPort.parsers.Readline
