@@ -1,4 +1,4 @@
-// IMPORTANDO BIBLIOTECAS
+// BIBLIOTECAS
 
 const SerialPort = require('serialport')
 const express = require('express') 
