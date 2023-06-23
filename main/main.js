@@ -5,7 +5,7 @@ const express = require('express')
 const socketIo = require('socket.io')
 const http = require('http')
 
-// CRIANDO SERVER
+// CRIANDO SERVER //
 
 const app = express ()
 const server = http.greateServer(app)
